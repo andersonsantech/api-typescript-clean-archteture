@@ -13,11 +13,11 @@ GET http://localhost:3000/api/users
 
 ###
 
-GET http://localhost:3000/api/users/990ac60e-6832-41e2-b030-243c9b731fc2
+GET http://localhost:3000/api/users/6a752aeb-7f54-4bc3-9bf1-32f85039d41f
 
 ###
 
-PUT http://localhost:3000/api/users/{userId}
+PUT http://localhost:3000/api/users/6a752aeb-7f54-4bc3-9bf1-32f85039d41f
 Content-Type: application/json
 
 {
@@ -28,5 +28,5 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/api/users/{userId}
+DELETE http://localhost:3000/api/users/b8a97e66-5702-439a-8e5d-a79229299eab
 
